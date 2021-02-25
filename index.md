@@ -51,7 +51,7 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #252c6a;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -62,7 +62,7 @@ img {vertical-align: middle;}
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #252c6a;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -115,8 +115,9 @@ img {vertical-align: middle;}
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
   <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/Tela%20inicial%20instagram%20-%20settings.PNG" style="width:100%">
-  <div class="text"><strong> First go to the settings of your IG account </strong></div>
-</div>
+ </div>
+ <div class="text"><strong> First go to the settings of your IG account </strong></div>
+
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
