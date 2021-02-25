@@ -114,7 +114,7 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div>
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">1 / 5</div>
   <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/Tela%20inicial%20instagram%20-%20settings.PNG" style="width:100%">
  </div>
  <div class="text"><strong> First go to the settings of your IG account </strong></div>
@@ -124,7 +124,7 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div>
-  <div class="numbertext">2 / 3</div>
+  <div class="numbertext">2 / 5</div>
   <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/instagram%20security.PNG" style="width:100%">
   </div>
   <div class="text"> <strong>Go to Privacy and Security</strong></div>
@@ -132,11 +132,28 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div>
-  <div class="numbertext">3 / 3</div>
+  <div class="numbertext">3 / 5</div>
   <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/account%20data%20instagram.PNG" style="width:100%">
   </div>
-  <div class="text">At the botton access view account data</div>
+  <div class="text"><strong>At the botton access view account data</strong></div>
 </div>
+
+<div class="mySlides fade">
+  <div>
+  <div class="numbertext">4 / 5</div>
+  <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/accounts%20following%20instagram.PNG" style="width:100%">
+  </div>
+  <div class="text"><strong>Access accounts following you and accounts you follow one at the time</strong></div>
+</div>
+
+<div class="mySlides fade">
+  <div>
+  <div class="numbertext">5 / 5</div>
+  <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/accounts%20I%20follow%20instagram.PNG" style="width:100%">
+  </div>
+  <div class="text"><strong>Once in either page select and copy all the usernames</strong></div>
+</div>
+
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -180,6 +197,6 @@ function showSlides(n) {
 </script>
 
 
-## The Magic 
+## The Magic 🐇
 
 
