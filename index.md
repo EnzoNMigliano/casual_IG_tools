@@ -120,14 +120,14 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="img_snow_wide.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
+  <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/instagram%20security.PNG" style="width:100%">
+  <div class="text">Go to Privacy and Security</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="img_mountains_wide.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
+  <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/account%20data%20instagram.PNG" style="width:100%">
+  <div class="text">At the botton access view account data</div>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
