@@ -1,4 +1,10 @@
-## Welcome to GitHub Pages
+## Geting Started 
+
+**First**
+
+<br>
+
+Go to the your Intagram profile page
 
 You can use the [editor on GitHub](https://github.com/EnzoNMigliano/casual_IG_tools/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
