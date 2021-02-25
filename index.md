@@ -55,7 +55,7 @@ img {vertical-align: middle;}
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 12px;
+  bottom: -8px;
   width: 100%;
   text-align: center;
 }
