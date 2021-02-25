@@ -1,21 +1,20 @@
 
-**Have you ever wonder what accounts follow you back on instagram?**
-
-<br>
-
+**Have you ever wonder what accounts follow you back on instagram?** <br>
 Imagine you are logging into your Instagram (IG) account, suddenly you notice someone unfollow you 😡!!! Well... If you have 10 to 50 people following you, trying to find it manually by typing the account's names of the Following under the Followers tab is 🍰. However, it is super unpractical for someone with 100 followers and crazy for anyone over 500 followers to do so (please don't do it, you are better off taking your time to learn how to code and writing your own program). Besides your fingertips and your own desire to discovering who betrayed you, the other resource available is third-party applications. I never used one, but my bias is that it is for the least super sketch to provide your information such as account name and password to anyone. So... 🥁 🥁 🥁
 
 <p align=center> 🎉🎉 <strong>You are welcome! This website was developed for you!</strong> 🎉🎉 </p>
 
 Here you will only need to provide two things, all you followers' account and all accounts you follow.
 
-## Getting Started 
+## Getting the info from IG 
 
 **First**
 
 <br>
 
 Go to the your Intagram profile page
+
+## The Magic 
 
 You can use the [editor on GitHub](https://github.com/EnzoNMigliano/casual_IG_tools/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
