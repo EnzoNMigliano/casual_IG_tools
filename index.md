@@ -127,7 +127,7 @@ img {vertical-align: middle;}
   <div class="numbertext">2 / 3</div>
   <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/instagram%20security.PNG" style="width:100%">
   </div>
-  <div class="text">Go to Privacy and Security</div>
+  <div class="text"> <strong>Go to Privacy and Security</strong></div>
 </div>
 
 <div class="mySlides fade">
