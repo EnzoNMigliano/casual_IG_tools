@@ -113,21 +113,28 @@ img {vertical-align: middle;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
+  <div>
   <div class="numbertext">1 / 3</div>
   <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/Tela%20inicial%20instagram%20-%20settings.PNG" style="width:100%">
  </div>
  <div class="text"><strong> First go to the settings of your IG account </strong></div>
+</div>
+ 
 
 
 <div class="mySlides fade">
+  <div>
   <div class="numbertext">2 / 3</div>
   <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/instagram%20security.PNG" style="width:100%">
+  </div>
   <div class="text">Go to Privacy and Security</div>
 </div>
 
 <div class="mySlides fade">
+  <div>
   <div class="numbertext">3 / 3</div>
   <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/account%20data%20instagram.PNG" style="width:100%">
+  </div>
   <div class="text">At the botton access view account data</div>
 </div>
 
