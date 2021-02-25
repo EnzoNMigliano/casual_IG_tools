@@ -66,7 +66,8 @@ img {vertical-align: middle;}
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  botton: 0;
+  right:0;
 }
 
 /* The dots/bullets/indicators */
@@ -143,7 +144,7 @@ img {vertical-align: middle;}
   <div class="numbertext">4 / 5</div>
   <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/accounts%20following%20instagram.PNG" style="width:100%">
   </div>
-  <div class="text"><strong>Access accounts following you and accounts you follow one at the time</strong></div>
+  <div class="text"><strong>Access "Accounts following you" and "Accounts you follow" one at the time</strong></div>
 </div>
 
 <div class="mySlides fade">
@@ -151,7 +152,7 @@ img {vertical-align: middle;}
   <div class="numbertext">5 / 5</div>
   <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/accounts%20I%20follow%20instagram.PNG" style="width:100%">
   </div>
-  <div class="text"><strong>Once in either page select and copy all the usernames</strong></div>
+  <div class="text"><strong>Once in either page, select and copy all the usernames</strong></div>
 </div>
 
 
@@ -164,7 +165,9 @@ img {vertical-align: middle;}
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span> 
 </div>
 
 <script>
