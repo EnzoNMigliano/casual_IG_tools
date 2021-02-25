@@ -114,8 +114,8 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="https://github.com/roda-por-favor/Seguidores_Instagram/blob/main/Imagens/Tela%20inicial%20instagram%20-%20settings.PNG" style="width:100%">
-  <div class="text">]<strong> First go to the settings of your IG account </strong></div>
+  <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/Tela%20inicial%20instagram%20-%20settings.PNG" style="width:100%">
+  <div class="text"><strong> First go to the settings of your IG account </strong></div>
 </div>
 
 <div class="mySlides fade">
