@@ -6,7 +6,7 @@ Imagine you are logging into your Instagram (IG) account, suddenly you notice so
 
 Here you will only need to provide two things, all you followers' account and all accounts you follow.
 
-## Getting the info from IG 
+## Getting the info/data from IG 
 
 
 <style>
