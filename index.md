@@ -268,6 +268,7 @@ function showSlides(n) {
   
     <center><label><strong> To unfollow <br> </strong></label></center>
   <center><span class="emoji">🙄</span></center>
+  <center><span class="emoji">😎</span></center>
 
     
     <div style="clear: both;"></div>
@@ -282,8 +283,12 @@ function showSlides(n) {
 <br/>  
 
 <script>
-
-
+var estate = 1
+var slides = document.getElementsByClassName("emoji");
+var followers = document.getElementsByClassName("followers");
+var you_follow = document.getElementsByClassName("you_follow");
+  
+printf(followers)
 </script>
 
 </div>
