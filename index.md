@@ -206,6 +206,11 @@ function showSlides(n) {
 
 <div>
   <style>
+    #entries{
+    display: inline-block
+    }
+    
+    
   .botao {
     font-size: 1.2em;
     background: linear-gradient(to bottom right, #F56040, #59429d);
@@ -221,13 +226,13 @@ function showSlides(n) {
   
   
 <form>
-<fieldset>
+<fieldset class="entries" id="entries">
 <div>
-  <label><strong>Accounts you follow you <br> </strong></label>
+  <label><strong> Accounts you follow <br> </strong></label>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
 </div>
   <div>
-    <label><strong>Accounts you follow <br> </strong></label>
+    <label><strong> Followers <br> </strong></label>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
     </fieldset> 
