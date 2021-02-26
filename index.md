@@ -144,7 +144,7 @@ img {vertical-align: middle;}
   <div class="numbertext">4 / 5</div>
   <img src="https://raw.githubusercontent.com/roda-por-favor/Seguidores_Instagram/main/Imagens/accounts%20following%20instagram.PNG" style="width:100%">
   </div>
-  <div class="text"><strong>Access "Accounts following you" and "Accounts you follow" one at the time</strong></div>
+  <div class="text"><strong>Access "Accounts following you" and "Accounts you follow" <br> one at the time</strong></div>
 </div>
 
 <div class="mySlides fade">
@@ -202,7 +202,7 @@ function showSlides(n) {
 
 ## The Magic 🐇
 <div>
-  
+  <style>
   .botao {
     font-size: 1.2em;
     background: #59429d;
@@ -219,7 +219,7 @@ function showSlides(n) {
     transform: translate(-50%, -50%)
 }
   
-  
+  <style>
   
   
 <form>
