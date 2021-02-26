@@ -224,7 +224,7 @@ function showSlides(n) {
     transform: translate(-50%, -50%)
 }
   
-  <style>
+  </style>
   
   
 <form>
