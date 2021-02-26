@@ -241,6 +241,12 @@ function showSlides(n) {
     height: 100px;    
     }
     
+    #textbox3 {
+    display: table;
+    float: left;    
+    width: 100px;    
+    height: 100px;    
+    }
     
 /* Setting the button */
     .botao {
@@ -266,6 +272,11 @@ function showSlides(n) {
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
 </div>
   <div id="textbox2">
+    <center><label><strong> Followers <br> </strong></label></center>
+  <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
+</div>
+    </div>
+  <div id="textbox3">
     <center><label><strong> Followers <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
