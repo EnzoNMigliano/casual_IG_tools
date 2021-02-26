@@ -206,17 +206,19 @@ function showSlides(n) {
 
 <div>
   <style>
-    #you_follow, #folowers{
+     #entries{
+    display: block
     border-radius: 5px;
     }
-    
-  #textbox{
-   display: inline-block;
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  border: 1px solid blue;    
-  }
+
+
+    #textbox1, #textbox2 {
+    display: block;
+    float: left;    
+    width: 100px;    
+    height: 100px;    
+}
+
     
   .botao {
     font-size: 1.2em;
@@ -233,21 +235,22 @@ function showSlides(n) {
   
   
 <form>
-<div id="textbox">
+<fieldset class="entries" id="entries">
 <div>
-  <center><label><strong> Accounts you follow <br> </strong></label></center>
-  <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required !important></textarea>
+<div id="textbox1">
+  <label><strong> Accounts you follow <br> </strong></label>
+  <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
 </div>
   <div>
-    <center><label><strong> Followers <br> </strong></label></center>
-  <textarea rows="6" style="width: 18em" id="followers" name="followers" required !important></textarea>
+  <div id="textbox2">
+    <label><strong> Followers <br> </strong></label>
+  <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
-  </div>
-  <br>
-   <center><button class="botao" type="submit" onsubmit="">Find out!</button></center>    
+    </fieldset> 
+  <br/>  
   </form>
-
-
+<br/>
+<center><button class="botao" type="submit" onsubmit="">Find out!</button></center>  
 
 <script>
 
