@@ -210,13 +210,12 @@ function showSlides(n) {
     border-radius: 5px;
     }
     
-  .textbox{
+  #textbox{
    display: inline-block;
   width: 100px;
   height: 100px;
   padding: 5px;
   border: 1px solid blue;    
-  background-color: yellow;
   }
     
   .botao {
@@ -234,11 +233,12 @@ function showSlides(n) {
   
   
 <form>
-<div class="textbox">
+<div id="textbox">
+<div>
   <center><label><strong> Accounts you follow <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required !important></textarea>
 </div>
-  <div class="textbox">
+  <div>
     <center><label><strong> Followers <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required !important></textarea>
 </div>
