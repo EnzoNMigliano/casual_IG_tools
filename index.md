@@ -230,7 +230,7 @@ function showSlides(n) {
     display: table;
     float: left; 
     width: 75px;    
-    height: 100px;    
+    height: 75px;    
     }
 
 
@@ -238,14 +238,14 @@ function showSlides(n) {
     display: table;
     float: left;    
     width: 75px;    
-    height: 100px;    
+    height: 75px;    
     }
     
     #textbox3 {
     display: table;
     float: left;    
     width: 75px;    
-    height: 100px;    
+    height: 75px;    
     }
     
 /* Setting the button */
