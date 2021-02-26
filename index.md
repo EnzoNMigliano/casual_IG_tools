@@ -206,21 +206,30 @@ function showSlides(n) {
 
 <div>
   <style>
-     #entries{
+    #entries{
     display: table;
     border-radius: 5px;
     }
 
-
-    #textbox1, #textbox2 {
+    #textbox1{
     display: block;
+    border-radius: 5px;
     float: left;    
     width: 100px;    
     height: 100px;    
-}
+    }
+    
+    
+    #textbox2 {
+    display: block;
+    border-radius: 5px;
+    float: left;    
+    width: 100px;    
+    height: 100px;    
+    }
 
     
-  .botao {
+    .botao {
     font-size: 1.2em;
     background: linear-gradient(to bottom right, #F56040, #59429d);
     border: 0;
@@ -247,9 +256,13 @@ function showSlides(n) {
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
     </fieldset> 
-  <br/>  
+  
+  <br/> 
+  
   </form>
+  
 <br/>
+
 <center><button class="botao" type="submit" onsubmit="">Find out!</button></center>  
 
 <script>
