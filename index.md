@@ -227,6 +227,8 @@ function showSlides(n) {
     }
     
     .botao {
+    display: table;
+    float: middle;
     font-size: 1.2em;
     background: linear-gradient(to bottom right, #F56040, #59429d);
     border: 0;
