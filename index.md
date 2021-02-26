@@ -207,8 +207,8 @@ function showSlides(n) {
 <div>
   <style>
     
-   textarea {vertical-align: middle;}
-   button {vertical-align: middle;}
+   textarea {justify-content: center;}
+   button {justify-content: center;}
     
    .form {
   max-width: 1000px;
