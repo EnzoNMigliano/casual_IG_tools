@@ -210,15 +210,6 @@ function showSlides(n) {
   <style>
     
     
-    
-/* container for the form and the for the solution */
-  .form {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  }
-    
-    
 /* setting the borders for the text areas */
    #you_follow, #followers{
     border-radius: 5px;
@@ -263,10 +254,10 @@ function showSlides(n) {
     }
     </style>
   
-  <div class="form">
+
   
 <form>
-  <div style="margin:auto">
+ 
 <div id="textbox1">
   <center><label><strong> Accounts you follow <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
@@ -279,7 +270,7 @@ function showSlides(n) {
     <center><label><strong> Followers <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="followers" name="followers"></textarea>
 </div>
-    </div>
+    
     <div style="clear: both;"></div>
   
   <br/>
@@ -288,7 +279,7 @@ function showSlides(n) {
   </div>
   </form>
   
-  </div>
+  
 <br/>  
 
 <script>
