@@ -223,7 +223,7 @@ function showSlides(n) {
     #textbox2 {
     display: block;
     border-radius: 5px;
-    float: left;    
+    float: rigth;    
     width: 100px;    
     height: 100px;    
     }
@@ -247,22 +247,22 @@ function showSlides(n) {
 <fieldset class="entries" id="entries">
 
 <div id="textbox1">
-  <label><strong> Accounts you follow <br> </strong></label>
+  <center><label><strong> Accounts you follow <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
 </div>
   <div id="textbox2">
-    <label><strong> Followers <br> </strong></label>
+    <center><label><strong> Followers <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
     </fieldset> 
   
-  <br/> 
+  <br/>
+
+<center><button class="botao" type="submit" onsubmit="">Find out!</button></center>
   
   </form>
   
-<br/>
-
-<center><button class="botao" type="submit" onsubmit="">Find out!</button></center>  
+<br/>  
 
 <script>
 
