@@ -227,8 +227,6 @@ function showSlides(n) {
     }
     
     .botao {
-    display: table;
-    float: middle;
     font-size: 1.2em;
     background: linear-gradient(to bottom right, #F56040, #59429d);
     border: 0;
@@ -251,7 +249,7 @@ function showSlides(n) {
     <center><label><strong> Followers <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
-    
+    <div style="clear: both;"></div>
   
   <br/>
 
