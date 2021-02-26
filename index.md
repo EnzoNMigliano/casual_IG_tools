@@ -204,7 +204,7 @@ function showSlides(n) {
 
 ## The Magic 🐇
 
-**Paste the selected accounts as they are into their respective boxes. Once you are ready, click in Find out! (once the emoji turns into 😎	a list with all the accounts will be dysplayed)**
+**Paste the selected accounts as they are into their respective boxes. Once you are ready, click in Find out! (once the emoji turns into 😎	a list with all the accounts that do not follow you back will be dysplayed)**
 
 <div>
   <style>
