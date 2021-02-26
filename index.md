@@ -201,17 +201,46 @@ function showSlides(n) {
 </div>
 
 ## The Magic 🐇
-
+<div>
+  
+  .botao {
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+  
+  
+  
+  
 <form>
 <fieldset>
 <div>
-  <strong>Accounts that follow you</strong>
-  <textarea rows="6" style="width: 26em" id="Followers" name="experiencia"></textarea>
+  <label><strong>Accounts that follow you</strong></label>
+  <textarea rows="6" style="width: 26em" id="Followers" name="experiencia" required></textarea>
 </div>
   <div>
-  <strong>Accounts you follow</strong>
-  <textarea rows="6" style="width: 26em" id="Followers" name="experiencia"></textarea>
+    <label><strong>Accounts you follow</strong></label>
+  <textarea rows="6" style="width: 26em" id="Followers" name="experiencia" required></textarea>
 </div>
     </fieldset> 
-   <button class="botao" type="submit" onsubmit="">Concluído</button>    
+   <button class="botao" type="submit" onsubmit="">Find out!</button>    
   </form>
+
+
+
+<script>
+
+
+</script>
+
+</div>
