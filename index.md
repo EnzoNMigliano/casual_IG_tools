@@ -202,13 +202,13 @@ function showSlides(n) {
 
 ## The Magic 🐇
 
-**Paste the selected accounts into their respective boxes. Once you are ready, click in Find out!**
+**Paste the selected accounts as they are into their respective boxes. Once you are ready, click in Find out!**
 
 <div>
   <style>
   .botao {
     font-size: 1.2em;
-    background: #59429d;
+    background: #F56040;
     border: 0;
     margin-bottom: 1em;
     color: #ffffff;
