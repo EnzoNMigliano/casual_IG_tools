@@ -207,24 +207,19 @@ function showSlides(n) {
 <div>
   <style>
     
- 
-    
    #you_follow, #followers{
     border-radius: 5px;
     }
 
    #textbox1{
     display: block;
-    display: table;    
+    display: table;
+    right: 50%
+    float: left; 
     width: 100px;    
     height: 100px;    
     }
 
-  .Center { 
-            position: fixed; 
-            top: 50%; 
-            left: 50%; 
-           } 
 
    #textbox2 {
     display: block;
@@ -251,7 +246,7 @@ function showSlides(n) {
   
 <form>
   
-<div id="textbox1" class="center">
+<div id="textbox1">
   <center><label><strong> Accounts you follow <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
 </div>
