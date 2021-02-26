@@ -207,7 +207,7 @@ function showSlides(n) {
 <div>
   <style>
      #entries{
-    display: block
+    display: table;
     border-radius: 5px;
     }
 
