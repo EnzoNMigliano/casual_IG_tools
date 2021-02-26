@@ -206,7 +206,7 @@ function showSlides(n) {
 
 <div>
   <style>
-    #you_follow, #folowers{
+    #you_follow, #followers{
     border-radius: 5px;
     }
 
@@ -255,9 +255,9 @@ function showSlides(n) {
     <div style="clear: both;"></div>
   
   <br/>
-
-<center><button class="botao" type="submit" onsubmit="">Find out!</button></center>
-  
+  <div style="text-align:center">
+    <button class="botao" type="submit" onsubmit="">Find out!</button>
+  </div>
   </form>
   
 <br/>  
