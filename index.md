@@ -234,7 +234,7 @@ function showSlides(n) {
     
    #textbox3 {
     display: table;
-    float: left;    
+    float: right;    
     width: 25px;    
     height: 75px;    
     }
