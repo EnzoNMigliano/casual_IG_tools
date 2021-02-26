@@ -275,7 +275,7 @@ function showSlides(n) {
   
   <br/>
   <div style="text-align:center">
-    <button class="botao" type="submit" onsubmit="">Find out!</button>
+    <button class="botao" type="submit" onsubmit="get_users()">Find out!</button>
   </div>
   </form>
   
@@ -283,12 +283,23 @@ function showSlides(n) {
 <br/>  
 
 <script>
-var estate = 1
-var slides = document.getElementsByClassName("emoji");
-var followers = document.getElementsByClassName("followers");
-var you_follow = document.getElementsByClassName("you_follow");
+var estate = 1;
+var emoji = document.getElementsByClassName("emoji");
   
+ function get_users (){
+  estate = 2
+  }
+  
+  if(estate = 1){
+
+
+  } else{
+  
+  var followers = document.getElementsByClassName("followers");
+var you_follow = document.getElementsByClassName("you_follow");
 printf(followers)
+  }
+
 </script>
 
 </div>
