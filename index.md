@@ -218,6 +218,15 @@ function showSlides(n) {
     height: 100px;    
     }
     
+    #textbox1{
+    text-align:left;
+    }
+    
+    
+    #textbox2{
+    text-align:rigth;
+    }
+    
   .botao {
     font-size: 1.2em;
     background: linear-gradient(to bottom right, #F56040, #59429d);
@@ -235,11 +244,11 @@ function showSlides(n) {
 <form>
 <center>
 <div id="textbox1">
-  <label><strong> Accounts you follow <br> </strong></label>
+  <center><label><strong> Accounts you follow <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
 </div>
   <div id="textbox2">
-    <label><strong> Followers <br> </strong></label>
+    <center><label><strong> Followers <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
   </center>
