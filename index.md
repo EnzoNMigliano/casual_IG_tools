@@ -1,6 +1,6 @@
 
 **Have you ever wonder what accounts follow you back on instagram?** <br>
-<p style="text-align: justify, text-justify: inter-word">
+<p style="text-align: justify">
 Imagine you are logging into your Instagram (IG) account, suddenly you notice someone unfollowed you 😡!!! Well... If you have 10 to 50 followers, it is 🍰 to find out manually by typing the account's names under the followers tab. However, it is unpractical for someone with 100 followers and crazy for anyone over 500 followers to do so (please don't do it, you are better off taking your time to learn how to code and writing your own program). Besides your fingertips and your own desire to discover who betrayed you, the other resource available is third-party applications. I never used one, but my bias is that for the very least it is super sketch to provide your information to anyone (specially your account name and your password). So... 🥁 🥁 🥁
 </p>
 
@@ -246,7 +246,7 @@ function showSlides(n) {
   
   
 <form>
-  
+  <div style="margin:auto">
 <div id="textbox1">
   <center><label><strong> Accounts you follow <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
@@ -255,7 +255,7 @@ function showSlides(n) {
     <center><label><strong> Followers <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
-    
+    </div>
     <div style="clear: both;"></div>
   
   <br/>
