@@ -8,7 +8,7 @@ Here you will only need to provide two things, all you followers' account and al
 
 ## Getting the info/data from IG 
 
-
+<div>
 <style>
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -198,8 +198,10 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-
+</div>
 
 ## The Magic 🐇
 
-
+<div>
+  <textarea rows="6" style="width: 26em" id="Followers" name="experiencia"></textarea>
+</div>
