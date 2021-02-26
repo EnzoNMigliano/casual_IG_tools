@@ -220,7 +220,6 @@ function showSlides(n) {
     }
 
    #textbox1{
-    display: block;
     display: table;
     float: left; 
     width: 100px;    
@@ -229,7 +228,6 @@ function showSlides(n) {
 
 
    #textbox2 {
-    display: block;
     display: table;
     float: left;    
     width: 100px;    
