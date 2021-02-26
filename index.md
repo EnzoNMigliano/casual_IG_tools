@@ -219,13 +219,9 @@ function showSlides(n) {
     }
     
     #textbox1{
-    text-align:left;
+    left:0;
     }
     
-    
-    #textbox2{
-    text-align:rigth;
-    }
     
   .botao {
     font-size: 1.2em;
