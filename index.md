@@ -201,6 +201,11 @@ function showSlides(n) {
 </div>
 
 ## The Magic 🐇
+
+**Paste the accounts selected into their respective boxes** <br>
+
+**Once you are ready, click in Find out!**
+
 <div>
   <style>
   .botao {
