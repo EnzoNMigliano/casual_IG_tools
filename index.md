@@ -209,16 +209,23 @@ function showSlides(n) {
 <div>
   <style>
     
+    
+    
+/* container for the form and the for the solution */
   .form {
   max-width: 1000px;
   position: relative;
   margin: auto;
   }
     
+    
+/* setting the borders for the text areas */
    #you_follow, #followers{
     border-radius: 5px;
     }
 
+
+/* Placing both text areas in the same line*/
    #textbox1{
     display: table;
     float: left; 
@@ -234,6 +241,8 @@ function showSlides(n) {
     height: 100px;    
     }
     
+    
+/* Setting the button */
     .botao {
     font-size: 1.2em;
     background: linear-gradient(to bottom right, #F56040, #59429d);
