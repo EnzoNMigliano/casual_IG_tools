@@ -210,6 +210,7 @@ function showSlides(n) {
     border-radius: 5px;
     }
     
+    form{text-align: center;}
     
     #textbox1, #textbox2 {
     display: table;
@@ -228,6 +229,8 @@ function showSlides(n) {
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
+    top:50%; 
+    left:50%;
     }
     </style>
   
@@ -242,7 +245,7 @@ function showSlides(n) {
     <label><strong> Followers <br> </strong></label>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
-  
+  <br>
    <button class="botao" type="submit" onsubmit="">Find out!</button>    
   </form>
 
@@ -254,3 +257,5 @@ function showSlides(n) {
 </script>
 
 </div>
+
+<br>
