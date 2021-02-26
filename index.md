@@ -206,24 +206,14 @@ function showSlides(n) {
 
 <div>
   <style>
-    #entries{
-    display: table;
+    #you_follow, #folowers{
     border-radius: 5px;
     }
 
-    #textbox1{
+   #textbox1, #textbox2 {
     display: block;
-    border-radius: 5px;
+    display: table;
     float: left;    
-    width: 100px;    
-    height: 100px;    
-    }
-    
-    
-    #textbox2 {
-    display: block;
-    border-radius: 5px;
-    float: rigth;    
     width: 100px;    
     height: 100px;    
     }
@@ -244,8 +234,6 @@ function showSlides(n) {
   
   
 <form>
-<fieldset class="entries" id="entries">
-
 <div id="textbox1">
   <center><label><strong> Accounts you follow <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
@@ -254,7 +242,7 @@ function showSlides(n) {
     <center><label><strong> Followers <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
-    </fieldset> 
+    
   
   <br/>
 
