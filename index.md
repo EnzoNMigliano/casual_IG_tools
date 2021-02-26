@@ -202,6 +202,16 @@ function showSlides(n) {
 
 ## The Magic 🐇
 
+<form>
+<fieldset>
 <div>
+  <strong>Accounts that follow you</strong>
   <textarea rows="6" style="width: 26em" id="Followers" name="experiencia"></textarea>
 </div>
+  <div>
+  <strong>Accounts you follow</strong>
+  <textarea rows="6" style="width: 26em" id="Followers" name="experiencia"></textarea>
+</div>
+    </fieldset> 
+   <button class="botao" type="submit" onsubmit="">Concluído</button>    
+  </form>
