@@ -207,26 +207,24 @@ function showSlides(n) {
 <div>
   <style>
     
-   textarea {justify-content: center;}
-   button {justify-content: center;}
+ 
     
-   .form {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  }
-    
-    #you_follow, #followers{
+   #you_follow, #followers{
     border-radius: 5px;
     }
 
    #textbox1{
     display: block;
-    display: table;
-    float: left;    
+    display: table;    
     width: 100px;    
     height: 100px;    
     }
+
+  .Center { 
+            position: fixed; 
+            top: 50%; 
+            left: 50%; 
+           } 
 
    #textbox2 {
     display: block;
@@ -250,10 +248,10 @@ function showSlides(n) {
     }
     </style>
   
-  <div class="form">
+  
 <form>
   
-<div id="textbox1">
+<div id="textbox1" class="center">
   <center><label><strong> Accounts you follow <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
 </div>
@@ -269,7 +267,7 @@ function showSlides(n) {
     <button class="botao" type="submit" onsubmit="">Find out!</button>
   </div>
   </form>
-  </div>
+  
 <br/>  
 
 <script>
