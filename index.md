@@ -221,7 +221,7 @@ function showSlides(n) {
    #textbox2 {
     display: block;
     display: table;
-    float: right;    
+    float: left;    
     width: 100px;    
     height: 100px;    
     }
@@ -236,11 +236,13 @@ function showSlides(n) {
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
+    right: 50;
     }
     </style>
   
   
 <form>
+  <center>
 <div id="textbox1">
   <center><label><strong> Accounts you follow <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
@@ -249,6 +251,7 @@ function showSlides(n) {
     <center><label><strong> Followers <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
+    <center>
     <div style="clear: both;"></div>
   
   <br/>
