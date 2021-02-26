@@ -202,9 +202,7 @@ function showSlides(n) {
 
 ## The Magic 🐇
 
-**Paste the accounts selected into their respective boxes** <br>
-
-**Once you are ready, click in Find out!**
+**Paste the selected accounts into their respective boxes. Once you are ready, click in Find out!**
 
 <div>
   <style>
@@ -218,11 +216,7 @@ function showSlides(n) {
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
-    top: 90%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
+    }
   
   </style>
   
