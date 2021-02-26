@@ -240,7 +240,7 @@ function showSlides(n) {
     }
     
    span.emoji {
-  font-size: 30px;
+  font-size: 60px;
   vertical-align: middle;
   line-height: 2;
 }
@@ -272,7 +272,7 @@ function showSlides(n) {
     <center><label><strong> Followers <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
-  <div id="textbox3" style"width: 12em, padding: 10px, border: 5px solid gray, margin: 0">
+  <div id="textbox3" style"width: 12em">
     <center><label><strong> To unfollow <br> </strong></label></center>
   <center><span class="emoji">🙄</span></center>
 </div>
