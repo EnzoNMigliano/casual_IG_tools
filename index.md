@@ -245,12 +245,11 @@ function showSlides(n) {
   
 <form>
 <fieldset class="entries" id="entries">
-<div>
+
 <div id="textbox1">
   <label><strong> Accounts you follow <br> </strong></label>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
 </div>
-  <div>
   <div id="textbox2">
     <label><strong> Followers <br> </strong></label>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
