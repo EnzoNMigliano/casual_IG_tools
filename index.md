@@ -209,6 +209,12 @@ function showSlides(n) {
 <div>
   <style>
     
+  .form {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  }
+    
    #you_follow, #followers{
     border-radius: 5px;
     }
@@ -244,6 +250,7 @@ function showSlides(n) {
     }
     </style>
   
+  <div class="form">
   
 <form>
   <div style="margin:auto">
@@ -264,6 +271,7 @@ function showSlides(n) {
   </div>
   </form>
   
+  </div>
 <br/>  
 
 <script>
