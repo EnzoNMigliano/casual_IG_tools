@@ -239,6 +239,12 @@ function showSlides(n) {
     height: 75px;    
     }
     
+   span.emoji {
+  font-size: 30px;
+  vertical-align: middle;
+  line-height: 2;
+}
+    
 /* Setting the button */
     .botao {
     font-size: 1.2em;
@@ -266,9 +272,9 @@ function showSlides(n) {
     <center><label><strong> Followers <br> </strong></label></center>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
-  <div id="textbox3" style"width: 50px, padding: 10px, border: 5px solid gray, margin: 0;>
+  <div id="textbox3" style"width: 12em, padding: 10px, border: 5px solid gray, margin: 0">
     <center><label><strong> To unfollow <br> </strong></label></center>
-  <h3>🙄</h3>
+  <center><span class="emoji">🙄</span></center>
 </div>
     
     <div style="clear: both;"></div>
