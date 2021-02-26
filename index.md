@@ -207,7 +207,7 @@ function showSlides(n) {
 <div>
   <style>
     #entries{
-    display: inline-block
+    display: block
     }
     
     
