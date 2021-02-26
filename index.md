@@ -213,7 +213,7 @@ function showSlides(n) {
     label{text-align: center;}
     
     #textbox1, #textbox2 {
-    display: table;    
+    display: inline-block;    
     width: 100px;    
     height: 100px;    
     }
@@ -233,7 +233,7 @@ function showSlides(n) {
   
   
 <form>
-
+<center>
 <div id="textbox1">
   <label><strong> Accounts you follow <br> </strong></label>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
@@ -242,6 +242,7 @@ function showSlides(n) {
     <label><strong> Followers <br> </strong></label>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
+  </center>
   <br>
    <center><button class="botao" type="submit" onsubmit="">Find out!</button></center>    
   </form>
