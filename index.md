@@ -213,11 +213,10 @@ function showSlides(n) {
     label{text-align: center;}
     
     #textbox1, #textbox2 {
-    display: table;
-    float: left;    
+    display: table;    
     width: 100px;    
     height: 100px;    
-}
+    }
     
   .botao {
     font-size: 1.2em;
