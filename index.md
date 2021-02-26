@@ -210,7 +210,7 @@ function showSlides(n) {
     border-radius: 5px;
     }
 
-   #textbox1, #textbox2 {
+   #textbox1{
     display: block;
     display: table;
     float: left;    
@@ -218,6 +218,13 @@ function showSlides(n) {
     height: 100px;    
     }
 
+   #textbox2 {
+    display: block;
+    display: table;
+    float: right;    
+    width: 100px;    
+    height: 100px;    
+    }
     
     .botao {
     font-size: 1.2em;
