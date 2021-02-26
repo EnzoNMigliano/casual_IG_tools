@@ -208,7 +208,7 @@ function showSlides(n) {
   <style>
   .botao {
     font-size: 1.2em;
-    background: #F56040;
+    background: linear-gradient(to botton right, #F56040, #59429d);
     border: 0;
     margin-bottom: 1em;
     color: #ffffff;
@@ -217,8 +217,7 @@ function showSlides(n) {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
     }
-  
-  </style>
+    </style>
   
   
 <form>
