@@ -206,13 +206,13 @@ function showSlides(n) {
 
 <div>
   <style>
-    #entries{
+    #you_follow, #folowers{
     border-radius: 5px;
     }
     
     
     #textbox1, #textbox2 {
-    display: block;
+    display: table;
     float: left;    
     width: 100px;    
     height: 100px;    
@@ -233,7 +233,7 @@ function showSlides(n) {
   
   
 <form>
-<fieldset class="entries" id="entries">
+
 <div id="textbox1">
   <label><strong> Accounts you follow <br> </strong></label>
   <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
@@ -242,7 +242,7 @@ function showSlides(n) {
     <label><strong> Followers <br> </strong></label>
   <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
-    </fieldset> 
+  
    <button class="botao" type="submit" onsubmit="">Find out!</button>    
   </form>
 
