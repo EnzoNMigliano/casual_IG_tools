@@ -223,12 +223,12 @@ function showSlides(n) {
 <form>
 <fieldset>
 <div>
-  <label><strong>Accounts that follow you</strong></label>
-  <textarea rows="6" style="width: 26em" id="Followers" name="experiencia" required></textarea>
+  <label><strong>Accounts you follow you <br> </strong></label>
+  <textarea rows="6" style="width: 18em" id="you_follow" name="you_follow" required></textarea>
 </div>
   <div>
-    <label><strong>Accounts you follow</strong></label>
-  <textarea rows="6" style="width: 26em" id="Followers" name="experiencia" required></textarea>
+    <label><strong>Accounts you follow <br> </strong></label>
+  <textarea rows="6" style="width: 18em" id="followers" name="followers" required></textarea>
 </div>
     </fieldset> 
    <button class="botao" type="submit" onsubmit="">Find out!</button>    
