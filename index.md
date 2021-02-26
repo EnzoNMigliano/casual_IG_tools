@@ -208,7 +208,7 @@ function showSlides(n) {
   <style>
   .botao {
     font-size: 1.2em;
-    background: linear-gradient(to botton right, #F56040, #59429d);
+    background: linear-gradient(to bottom right, #F56040, #59429d);
     border: 0;
     margin-bottom: 1em;
     color: #ffffff;
