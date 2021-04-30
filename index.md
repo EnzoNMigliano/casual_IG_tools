@@ -320,6 +320,6 @@ break;
 
 </div>
 
-<span id="to_unfollow"></span></h1>
+<span id="to_unfollow"></span>
 
 <br>
