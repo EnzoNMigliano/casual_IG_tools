@@ -311,9 +311,13 @@ break;
                 } // end of for(i=0)
 
             } // end of for(x in followers)
-function get(){
- document.getElementById("to_unfollow").innerHTML = log(to_delete);
-}
+
+var x = window.open();
+		x.document.open();
+		x.document.write('<html><body><script> for(var i in to_delete) {console.log(i);}</script></body></html>');
+		x.document.close();
+		
+
   } // end of else
 
 </script>
