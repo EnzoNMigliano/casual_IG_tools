@@ -290,7 +290,7 @@ var emoji = document.getElementsByClassName("emoji");
   estate = 2;
   }
   
-  if(estate = 1){
+  if(estate == 1){
 
 
   } else{
@@ -303,20 +303,15 @@ for(x in followers){
 
 for(i=0; i > to_delete.length ; i++){
 
-if(to_delete[i] == x){
+if(to_delete[i] == x;){
 delete to_delete[i];
-break;
+i = to_delete.length;
                     } // end of if to_delete
 
                 } // end of for(i=0)
 
             } // end of for(x in followers)
-
-var x = window.open();
-		x.document.open();
-		x.document.write('<html><body><script> for(var i in to_delete) {console.log(i);}</script></body></html>');
-		x.document.close();
-		
+var results = 1	;	
 
   } // end of else
 
@@ -324,6 +319,16 @@ var x = window.open();
 
 </div>
 
-<span id="to_unfollow"></span>
+
+<script>
+	if(results == 1){
+	
+	var x = window.open();
+		x.document.open();
+		x.document.write('<html><body><script> for(var i in to_delete){console.log(i);}</script></body></html>');
+		x.document.close();
+		
+		}
+	</script>
 
 <br>
