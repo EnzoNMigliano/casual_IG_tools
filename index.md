@@ -297,11 +297,29 @@ var emoji = document.getElementsByClassName("emoji");
   
   var followers = document.getElementsByClassName("followers");
 var you_follow = document.getElementsByClassName("you_follow");
-printf(followers)
-  }
+var to_delete = you_follow;
+
+for(x in followers){
+
+for(i=0; i > to_delete.length ; i++){
+
+if(to_delete[i] == x){
+delete to_delete[i];
+break;
+                    } // end of if to_delete
+
+                } // end of for(i=0)
+
+            } // end of for(x in followers)
+
+ document.getElementById("to_unfollow").innerHTML = to_delete;
+
+  } // end of else
 
 </script>
 
 </div>
+
+<span id="to_unfollow"></span></h1>
 
 <br>
