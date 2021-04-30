@@ -322,13 +322,10 @@ var results = 1	;
 
 <script>
 	if(results == 1){
-	
-	var x = window.open();
-		x.document.open();
-		x.document.write('<html><body><script> for(var i in to_delete){console.log(i);}</script></body></html>');
-		x.document.close();
-		
+	for(var i in to_delete){
+	console.log(i);
 		}
-	</script>
+	}
+</script>
 
 <br>
