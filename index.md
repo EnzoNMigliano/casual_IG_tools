@@ -287,7 +287,7 @@ var estate = 1;
 var emoji = document.getElementsByClassName("emoji");
   
  function get_users (){
-  estate = 2
+  estate = 2;
   }
   
   if(estate = 1){
@@ -311,9 +311,9 @@ break;
                 } // end of for(i=0)
 
             } // end of for(x in followers)
-
- document.getElementById("to_unfollow").innerHTML = to_delete;
-
+function get(){
+ document.getElementById("to_unfollow").innerHTML = log(to_delete);
+}
   } // end of else
 
 </script>
